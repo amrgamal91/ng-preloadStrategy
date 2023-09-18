@@ -16,11 +16,11 @@ The Angular provides two built in strategies out of the box. one is PreloadAllMo
 ## usage of preloading strategy
 With PreloadAllModules all the modules are preloaded, which may actually create a bottleneck if the application has large no of modules to be loaded.
 
-The better way strategy would be
+The better way strategy would be :
 
-Eagerly Load the modules required at startup. For Example authentication module, core module, shared module etc
-Preload all frequently used modules, may be after some delay
-Lazy load remaining modules
+* Eagerly Load the modules required at startup. For Example authentication module, core module, shared module etc
+* Preload all frequently used modules, may be after some delay
+* Lazy load remaining modules
 
 ## Run project 
 you can run the project using : npm run start 
