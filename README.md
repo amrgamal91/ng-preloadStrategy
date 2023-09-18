@@ -1,7 +1,5 @@
 # NgPreloadStrategy
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11.
-
 This is just to test preload strategy in angular 
 
 Preloading in Angular means loading the Lazy loaded Modules in the background asynchronously, while user is interacting with the app. This will help boost up the loading time of the app
